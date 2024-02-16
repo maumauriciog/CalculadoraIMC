@@ -24,7 +24,7 @@ O app CalculadoraIMC foi um aplicativo que desenvolvi para dar meus primeiros pa
 - Melhorar estilização do app
 
 ## Author
-Maurício Chagas (follow me on [Twitter](https://twitter.com/maumauriciog))
+Maurício G (follow me on [Twitter](https://twitter.com/maumauriciog))
 
 ## License
 ```
