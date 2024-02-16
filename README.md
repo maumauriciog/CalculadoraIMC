@@ -1,9 +1,11 @@
 # Calculadora IMC
 O app CalculadoraIMC foi um aplicativo que desenvolvi para dar meus primeiros passos com desenvolvimento android. Eu participei do desafio 10D Challange na comunidade DevSpace e consegui sair do ZERO.
 
+
 ## 📸: Screenshots
 <!-- You can add more screenshots here if you like -->
 <img src="/result/Screenshot_B.png" width="260">&emsp;&emsp;<img src="/result/Screenshot_C.png" width="260">&emsp;&emsp;<img src="/result/Screenshot_D.png" width="260">
+
 
 ## Tecnologias
 * Kotlin
@@ -20,11 +22,14 @@ O app CalculadoraIMC foi um aplicativo que desenvolvi para dar meus primeiros pa
 - FindViewById para recuperar components de UI
 - String resource para concatenação de textos
 
+
 ### TO DO
 - Melhorar estilização do app
 
+
 ## Author
 Maurício G (follow me on [Twitter](https://twitter.com/maumauriciog))
+
 
 ## License
 ```
