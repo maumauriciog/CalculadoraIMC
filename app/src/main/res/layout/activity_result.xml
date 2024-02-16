@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ResultActivity2">
+
+    <TextView
+        android:id="@+id/txtSeuDado"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:layout_marginLeft="30sp"
+        android:textColor="@color/purple_700"
+        android:text="Seus Dados"
+        android:textSize="21sp"
+        tools:ignore="HardcodedText,RtlHardcoded" />
+
+    <TextView
+        android:id="@+id/txtDadoPeso"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30sp"
+        android:layout_marginRight="19sp"
+        android:textSize="18sp"
+        tools:text="meu peso"
+        tools:ignore="RtlHardcoded" />
+
+    <TextView
+        android:id="@+id/txtDadoAltura"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30sp"
+        android:layout_marginRight="19sp"
+        android:textSize="18sp"
+        tools:text="minha altura"
+        tools:ignore="RtlHardcoded" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:textColor="@color/purple_500"
+        android:text="seu IMC"
+        android:layout_marginTop="35dp"
+        android:textSize="19dp"
+        tools:ignore="HardcodedText,SpUsage" />
+
+    <TextView
+        android:id="@+id/RespIMC"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:text="valor imc"
+        android:textSize="35sp"
+        android:textAlignment="center"
+        android:fontFamily="casual"
+        />
+
+    <TextView
+        android:id="@+id/txtNomeClass"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="35dp"
+        android:layout_marginLeft="30sp"
+        android:textColor="@color/purple_700"
+        android:text="Sua Classificação"
+        android:textSize="21sp"
+        tools:ignore="HardcodedText,RtlHardcoded" />
+
+    <TextView
+        android:id="@+id/txtClassification"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30sp"
+        android:layout_marginRight="19sp"
+        android:textSize="17sp"
+        tools:text="texto classificação"
+        tools:ignore="RtlHardcoded" />
+
+    <TextView
+        android:id="@+id/txtTable"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30sp"
+        android:layout_marginRight="19sp"
+        android:layout_marginTop="35dp"
+        android:textColor="@color/purple_700"
+        android:textSize="21sp"
+        android:text="Tabela IMC - Interpretação"
+        tools:ignore="HardcodedText,RtlHardcoded" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30sp"
+        android:textSize="17sp"
+        android:text="Menor que 18.50      = abaixo do peso"
+        tools:ignore="HardcodedText,RtlHardcoded"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30sp"
+        android:textSize="17sp"
+        android:text="Entre 18.50 e 24.99  = peso normal"
+        tools:ignore="HardcodedText,RtlHardcoded"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30sp"
+        android:textSize="17sp"
+        android:text="Entre 25.00 e 29.99  = Sobrepeso"
+        tools:ignore="HardcodedText,RtlHardcoded"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30sp"
+        android:textSize="17sp"
+        android:text="Entre 30.00 e 34.99  = Obesidade Grau 1"
+        tools:ignore="HardcodedText,RtlHardcoded"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30sp"
+        android:textSize="17sp"
+        android:text="Entre 35.00 e 39.99  = Obesidade Grau 2"
+        tools:ignore="HardcodedText,RtlHardcoded"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30sp"
+        android:textSize="17sp"
+        android:text="Acima de 40.00        = Obesidade Grau 3"
+        tools:ignore="HardcodedText,RtlHardcoded"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="55sp"
+        android:textAlignment="center"
+        android:textColor="@color/purple_500"
+        android:text="para voltar ao início, click na seta ao topo"
+        android:textSize="19sp"
+        tools:ignore="HardcodedText,RtlHardcoded,SmallSp"
+        />
+</LinearLayout>

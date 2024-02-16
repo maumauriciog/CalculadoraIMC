@@ -1,0 +1,6 @@
+<resources>
+    <string name="message" translatable="false">IMC</string>
+    <string name="message_Value_Classification">Você está %1$s</string>
+    <string name="message_Peso">Peso: %1$s</string>
+    <string name="message_Altura">Altura: %1$s</string>
+</resources>

@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_margin="40dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    tools:ignore="InOrMmUsage">
+
+    <TextView
+        android:id="@+id/txtOq"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/purple_700"
+        android:layout_marginTop="20sp"
+        android:text="O que é IMC?"
+        tools:ignore="HardcodedText"
+        android:textSize="22sp" />
+
+    <TextView
+        android:id="@+id/definIMC"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtOq"
+        android:text="Índice de Massa Corporal (IMC), é uma das principais ferramentas adotada pela Organização Mundial de Saúde (OMS), para calcular o peso ideal."
+        tools:ignore="HardcodedText"
+        android:textSize="17sp" />
+
+    <TextView
+        android:id="@+id/txtExp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/purple_700"
+        android:layout_below="@+id/definIMC"
+        android:layout_marginTop="60dp"
+        android:text="Experimente..."
+        tools:ignore="HardcodedText"
+        android:textSize="22sp" />
+
+    <EditText
+        android:id="@+id/edtPeso"
+        android:hint="digite aqui o seu peso"
+        android:inputType="numberDecimal"
+        android:maxLength="5"
+        android:layout_marginTop="223dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:importantForAutofill="no"
+        tools:ignore="HardcodedText,LabelFor" />
+
+    <EditText
+        android:id="@+id/edtAltura"
+        android:hint="digite aqui a sua altura"
+        android:inputType="numberDecimal"
+        android:maxLength="4"
+        android:layout_below="@+id/edtPeso"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:importantForAutofill="no"
+        tools:ignore="HardcodedText,LabelFor" />
+
+    <Button
+        android:id="@+id/btnIMC"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="76dp"
+        android:text="Click para calcular o IMC"
+        tools:ignore="HardcodedText" />
+
+    <TextView
+        android:id="@+id/lblBy"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/btnIMC"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:textAlignment="center"
+        android:layout_marginBottom="-66dp"
+        android:text="quer sair do app? click na seta ao topo"
+        android:textSize="15dp"
+        tools:ignore="HardcodedText,LabelFor" />
+
+</RelativeLayout>
