@@ -20,12 +20,11 @@ O app CalculadoraIMC foi um aplicativo que desenvolvi para dar meus primeiros pa
 - FindViewById para recuperar components de UI
 - String resource para concatenação de textos
 
-
-### TODO
+### TO DO
 - Melhorar estilização do app
 
 ## Author
-Roque Buarque Junior (follow me on [Twitter](https://twitter.com/roquebuarque))
+Maurício Chagas (follow me on [Twitter](https://twitter.com/maumauriciog))
 
 ## License
 ```
