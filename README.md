@@ -20,7 +20,7 @@ O app CalculadoraIMC foi um aplicativo que desenvolvi para dar meus primeiros pa
 - Toast para display de mensagens
 - Intent Explicita para abrir a segunda Activity
 - FindViewById para recuperar components de UI
-- String resource para concatenação de textos
+- String Resource para concatenação de textos
 
 
 ### TO DO
