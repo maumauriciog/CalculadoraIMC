@@ -46,7 +46,6 @@ class MainActivity : AppCompatActivity() {
             }
         }
     }
-
     override fun onOptionsItemSelected(item: MenuItem): Boolean {
         finishAndRemoveTask()
         return super.onOptionsItemSelected(item)
