@@ -148,9 +148,9 @@
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="43sp"
+        android:layout_marginTop="45sp"
         android:textAlignment="center"
-        android:textColor="@color/purple_500"
+        android:textColor="@color/teal_700"
         android:text="para voltar ao início, click na seta ao topo"
         android:textSize="19sp"
         tools:ignore="HardcodedText,RtlHardcoded,SmallSp"

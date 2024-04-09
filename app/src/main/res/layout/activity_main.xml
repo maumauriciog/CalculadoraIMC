@@ -33,7 +33,7 @@
         android:layout_height="wrap_content"
         android:textColor="@color/purple_700"
         android:layout_below="@+id/definIMC"
-        android:layout_marginTop="60dp"
+        android:layout_marginTop="65dp"
         android:text="Experimente..."
         tools:ignore="HardcodedText"
         android:textSize="22sp" />
@@ -43,7 +43,7 @@
         android:hint="digite aqui o seu peso"
         android:inputType="numberDecimal"
         android:maxLength="5"
-        android:layout_marginTop="223dp"
+        android:layout_marginTop="225dp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:importantForAutofill="no"
@@ -80,6 +80,5 @@
         android:layout_marginBottom="-66dp"
         android:text="quer sair do app? click na seta ao topo"
         android:textSize="15dp"
-        tools:ignore="HardcodedText,LabelFor" />
-
+        tools:ignore="HardcodedText,LabelFor,SpUsage" />
 </RelativeLayout>
