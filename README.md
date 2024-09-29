@@ -1,4 +1,4 @@
-# Calculadora IMC
+# 📝 Calculadora IMC
 O app CalculadoraIMC foi um aplicativo que desenvolvi para dar meus primeiros passos com desenvolvimento android e claro contribuir com o código.
 
 
