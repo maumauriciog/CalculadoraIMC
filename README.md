@@ -7,7 +7,7 @@ O app CalculadoraIMC foi um aplicativo que desenvolvi para dar meus primeiros pa
 <img src="/result/Screenshot_B.png" width="260">&emsp;<img src="/result/Screenshot_C.png" width="260">&emsp;<img src="/result/Screenshot_D.png" width="260">
 
 
-## Tecnologias
+## : Tecnologias
 * Kotlin
 * Activity para host de telas
 * ViewGroup
